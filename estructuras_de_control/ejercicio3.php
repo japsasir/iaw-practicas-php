@@ -28,5 +28,4 @@ switch ($variable){
         echo "Domingo";
         break;
 }
-
 ?>

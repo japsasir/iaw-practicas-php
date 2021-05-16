@@ -27,5 +27,4 @@ switch ($variable){
         echo "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/D6_6.svg/103px-D6_6.svg.png'>";
         break;
 }
-
 ?>
