@@ -8,3 +8,17 @@ de la variable superglobal $_SERVER.
     Información sobre el agente de usuario (User Agent) desde el que se está solicitando el script.
     La dirección IP del cliente que está solicitando el script.
 */
+
+<?php
+// https://www.php.net/reserved.variables.server    El señor de los arrays.
+   echo "Dirección IP del servidor: </b>" . $_SERVER['SERVER_ADDR'];
+   echo "<br>"
+   echo "Nombre del servidor: </b>" . $_SERVER['SERVER_NAME'];
+   echo "<br>"
+   echo "Software del servidor: </b>" . $_SERVER['SERVER_SOFTWARE'];
+   echo "<br>"
+   echo "User Agent: </b>" . $_SERVER['HTTP_USER_AGENT'];
+   echo "<br>"
+   echo "IP del cliente: </b>" . $_SERVER['REMOTE_ADDR'];
+
+?>
