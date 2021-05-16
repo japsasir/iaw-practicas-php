@@ -1,0 +1,1 @@
+# 8. Crea un archivo llamado funciones.php que contenga todas las funciones creadas en los ejercicios anteriores. Escriba un script PHP que incluya el archivo funciones.php y haga uso de cada una de ellas.
