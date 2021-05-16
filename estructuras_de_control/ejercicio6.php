@@ -7,4 +7,5 @@ En este punto me veo forzado a crear una carpeta de imagenes locales para elegir
 
 $variable = rand(1,6);
 echo "<h1>Tu tirada: $variable</h1>";
-;
+echo "<img src='dados/$variable.png'>";
+?>
