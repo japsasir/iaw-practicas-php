@@ -6,25 +6,49 @@
     Buscar el valor mínimo de los valores del array.
     Muestre el valor mínimo que ha encontrado.
 
+    4. (Segunda parte) Escribe un script PHP que sobre un array de temperaturas realice las siguientes operaciones:
+
+    Calcular la media.
+    Calcular el valor máximo.
+    Calcular el valor mínimo.
+    Mostrar todos los valores calculados.
+
 */
 
 $lista = array();
 
+# Num elementos.
 for ($i=0; $i < 10; $i++) { 
     $lista[$i] = rand(1, 30);
 }
-
-// Paso 3 imprimir array
+# Se imprime
 for ($i=0; $i < 10; $i++) { 
     echo $lista[$i];
     echo "<br>";
 }
-# Ahora usamos min en vez de max
-$minimo = min( $lista );
 
+# Ponemos el contador de suma a 0
+$suma = 0;
+# Recorremos el array
+foreach ($lista as $clave) {
+    $suma += $clave;
+}
+
+# La cantidad de entradas se mide con COUNT
+$numeros = count($lista);
+# Alternativamente, podríamos definirlo como una constante. 
+# define("numeros", 10);
+
+# Hacemos una media.
+$media = $suma / $numeros;
+
+echo "En nuestro array tenemos $numeros entradas";
 echo "<br>";
+echo "Realizamos la operación $suma / $numeros";
+echo "<br>";
+echo "La media resultante es: $media";
 
-echo " El valor mínimo es: $minimo";
-#¿¿Va aquí la segunda parte del ejercicio??
+
+
 ?>
 

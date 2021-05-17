@@ -9,20 +9,34 @@
 
 $lista = array();
 
+# Num elementos.
 for ($i=0; $i < 10; $i++) { 
     $lista[$i] = rand(1, 30);
 }
-
+# Se imprime
 for ($i=0; $i < 10; $i++) { 
     echo $lista[$i];
     echo "<br>";
 }
 
-# Usamos max para encontrar el máximo.
-$maximo = max( $lista );
+# Ponemos el contador de suma a 0
+$suma = 0;
+# Recorremos el array
+foreach ($lista as $clave) {
+    $suma += $clave;
+}
 
+# La cantidad de entradas se mide con COUNT
+$numeros = count($lista);
+# Alternativamente, podríamos definirlo como una constante. 
+# define("numeros", 10);
+
+# Hacemos una media.
+$media = $suma / $numeros;
+
+echo "En nuestro array tenemos $numeros entradas";
 echo "<br>";
-# Lo imprimimos en pantalla
-echo " El valor máximo es: $maximo";
-
+echo "Realizamos la operación $suma / $numeros";
+echo "<br>";
+echo "La media resultante es: $media";
 ?>
