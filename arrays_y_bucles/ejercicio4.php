@@ -21,7 +21,7 @@ $lista = array();
 for ($i=0; $i < 10; $i++) { 
     $lista[$i] = rand(1, 30);
 }
-# Se imprime
+# Se imprime.
 for ($i=0; $i < 10; $i++) { 
     echo $lista[$i];
     echo "<br>";
@@ -32,6 +32,8 @@ $suma = 0;
 # Recorremos el array
 foreach ($lista as $clave) {
     $suma += $clave;
+    $maxima = max($lista);
+    $minima = min($lista);
 }
 
 # La cantidad de entradas se mide con COUNT
@@ -41,14 +43,10 @@ $numeros = count($lista);
 
 # Hacemos una media.
 $media = $suma / $numeros;
-
-echo "En nuestro array tenemos $numeros entradas";
+echo "La temperatura media resultante es: $media ($suma / $numeros)";
 echo "<br>";
-echo "Realizamos la operación $suma / $numeros";
+echo "La temperatura minima fue: $minima";
 echo "<br>";
-echo "La media resultante es: $media";
-
-
-
+echo "La temperatura maxima es: $maxima";
 ?>
 
