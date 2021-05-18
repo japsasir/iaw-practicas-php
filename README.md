@@ -26,6 +26,8 @@ https://josejuansanchez.org/iaw/practica-php/index.html#ejercicios---funciones
 - Cursos de OpenWebinars relacionados
 Básico      https://openwebinars.net/academia/aprende/curso-php-2019/
 Php y MySQL https://openwebinars.net/academia/portada/php-mysql/
+- Documentación PHP
+https://www.php.net/manual/es/function.key.php
 - Espacio de pruebas con PHP
 https://www.tehplayground.com/QkowN2xDuKAIYAQw
 
