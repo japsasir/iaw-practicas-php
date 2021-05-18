@@ -1,1 +1,0 @@
-# 2. Escribe un script que muestre un formulario con un campo de texto y que permita enviarlo usando el método POST. El mismo script será capaz de recibir el dato enviado por el formulario y lo mostrará.

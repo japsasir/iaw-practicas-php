@@ -1,1 +1,0 @@
-# 4 4. Escribe un script que mediante un formulario permita seleccionar el número de monedas que se desean lanzar (de 1 a 20) y el tipo de moneda (Dólar Estadounidense, Euro, Yen japonés, Libra esterlina, Franco suizo). El comportamiento tiene que ser similar al de la web random.org.
