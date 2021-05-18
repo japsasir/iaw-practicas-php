@@ -1,1 +1,0 @@
-/* 6. Resuelva el ejercicio utilizando bucles while. */
