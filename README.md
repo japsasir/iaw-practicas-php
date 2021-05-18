@@ -23,6 +23,7 @@ Para poder navegar por los directorios he creado un archivo **htaccess** muy sen
 Durante la realización de los ejercicios he dejado anotaciones a modo de documentación, con algún enlace a la documentación de php en puntos clave.
 
 ![Usando git](https://i.imgur.com/901HGAZ.png)
+
 Para actualizar el repositorio se han usado los siguientes comandos
 `git add *`
 `git commit -m "Comentario relevante"`
