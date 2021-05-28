@@ -19,24 +19,9 @@ for ($i=0; $i < 10; $i++) {
     echo "<br>";
 }
 
-# Ponemos el contador de suma a 0
-$suma = 0;
-# Recorremos el array
-foreach ($lista as $clave) {
-    $suma += $clave;
-}
+# Elegimos el mayor de nuestro array.
+$mayor = max($array);
 
-# La cantidad de entradas se mide con COUNT
-$numeros = count($lista);
-# Alternativamente, podríamos definirlo como una constante. 
-# define("numeros", 10);
+echo "El numero mas grande es: $mayor";
 
-# Hacemos una media.
-$media = $suma / $numeros;
-
-echo "En nuestro array tenemos $numeros entradas";
-echo "<br>";
-echo "Realizamos la operación $suma / $numeros";
-echo "<br>";
-echo "La media resultante es: $media";
 ?>
